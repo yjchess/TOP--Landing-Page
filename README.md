@@ -61,5 +61,6 @@ What I will say about the project however - are some questions reflecting my cod
 - Links don't change color when hovered over - need to improve for better UX.
 - I copied the copyright from the image. This should hopefully be ok since the aim of the project was to imitate the image; and the copyright comes from the organization creating these porjects.
 - Should I use i tag instead of making it italic in the css?
+- Should I have created classes using the custom variables I had created so that I could more easily have added colours, shapes and sizes to my text? Would that have been better?
 
 Probably a lot more that could be improved; but focussing on speed now - so I will say that I am done for now. Although one last thing: Could've just linked the images and not written out a lengthy requirements.
