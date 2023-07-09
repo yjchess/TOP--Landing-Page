@@ -1,0 +1,193 @@
+:root{
+    --dark-blue: #1F2937;
+    --light-blue: #3882F6;
+    --action-color: #3882F6;
+    --grey: #E5E7EB;
+
+    --main-text-color: #F9FaF8;
+    --secondary-text-color: #E5E7EB;
+    --black-header-color: #1F2937;
+    --quote-text-color: #1F2937;
+}
+section > *{
+    padding:0 10vw;
+}
+
+body{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Roboto;
+}
+
+nav, main{
+    background-color: var(--dark-blue);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+h3{
+    color:var(--main-text-color);
+    font-size: 24px;
+    margin: 0;
+}
+
+nav h3{
+    line-height: 53px;
+}
+
+menu{
+    list-style: none;
+    display: flex;
+    padding:0;
+    gap:10px;
+}
+
+a{
+    color:aliceblue;
+    font-size: smaller;
+    text-decoration: none;
+}
+
+.herosection{
+    display: flex;
+    gap: 10px;
+    padding: 50px 0;
+}
+
+h1{
+    font-size: 48px;
+    font-weight:bolder;
+    color: var(--main-text-color);
+    margin: 0;
+    line-height: 45px;
+}
+
+.textsection p{
+    color: var(--secondary-text-color);
+    margin:5px 0;
+}
+
+.herosection .textsection, .imagesection{
+    width: 50%;
+}
+
+.imagesection{
+    background-color: grey;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: var(--action-color);
+    color:white;
+    border-radius: 5px;
+    border:none;
+    padding:5px 20px;
+}
+
+section.blackText{
+    color:black;
+    text-align: center;
+}
+
+.blackText h2{
+    margin:40px 0;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-container{
+    width: 19%;
+}
+
+.box{
+    aspect-ratio: 1/1;
+    width: 100%;
+    border: 4px solid var(--light-blue);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.subtext p{
+    margin:0;
+}
+
+blockquote{
+    font-size:36px;
+    line-height: 40px;
+    font-weight: lighter;
+    color: var(--quote-text-color);
+    font-style: italic;
+    text-align: start;
+}
+
+figcaption{
+    text-align: end;
+}
+
+figcaption, blockquote{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 80px;
+    margin-inline-end: 80px;
+}
+
+section.grey{
+    background-color: var(--grey);
+    padding: 10vw 0;
+}
+
+section.gallery{
+    padding-bottom: 10vw;
+}
+
+.callToAction{
+    background-color: var(--action-color);
+    margin: 10vw;
+    padding: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.callToAction h3, .callToAction p{
+    margin: 0;
+}
+
+.callToAction p{
+    color:var(--secondary-text-color)
+}
+
+.actionText{
+    width: 75%;
+}
+
+.actionButton{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionButton button{
+    border: 2px solid white;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+footer{
+    background-color: var(--dark-blue);
+    text-align: center;
+    color: var(--secondary-text-color);
+}
